@@ -1,0 +1,14 @@
+Sistema de Gerenciamento de Biblioteca
+
+Entidades do gerenciamento de biblioteca:
+-Usuários (nome, idade)
+-Livros (nome, edição, autor)
+-Autores (nome, nacionalidade)
+-Empréstimo (data, livro, usuário)
+-Devolução (entrada no livro)
+
+O sistema se divide em grupos de ação:
+-Cadastrar usuários (nome e idade)
+-Cadastrar livros (cada livro deve ser acompanhados das seguintes informações: nome, edição, autor, gênero)
+-Registrar empréstimo (relacionar com usuário e livro emprestado, data de empréstimo e data de devolução)
+-registrar devolução (tornar o livro devolvido, disponível para empréstimo)
